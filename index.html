@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="login-container">
+    <div id="main">
+      <h1>Sign In</h1>
+      <input id="email" type="text" placeholder="Email">
+      <input id="password" type="password" placeholder="Password">
+      <label for="role">Select Role:</label>
+      <select id="role">
+        <option value="manufacturer">Manufacturer</option>
+        <option value="retailer">Retailer</option>
+        <option value="consumer">Consumer</option>
+        <option value="Distributor">Distributor</option>
+      </select>
+      <button id="submit">Submit</button>
+      <p><span>or</span></p>
+      <div class="button-container">
+        <button id="sign-up">Sign Up</button>
+        <button id="forgot-password">Forgot Password</button>
+      </div>
+    </div>
+
+    <div id="create-acct">
+      <h1>Create an Account</h1>
+      <input id="username-signup" type="text" placeholder="Username">
+      <input id="email-signup" type="text" placeholder="Email">
+      <input id="confirm-email-signup" type="email" placeholder="Confirm Email">
+      <input id="password-signup" type="password" placeholder="Password">
+      <input id="confirm-password-signup" type="password" placeholder="Confirm Password">
+      <label for="role-signup">Select Role:</label>
+      <select id="role-signup">
+        <option value="manufacturer">Manufacturer</option>
+        <option value="retailer">Retailer</option>
+        <option value="consumer">Consumer</option>
+        <option value="Distributor">Distributor</option>
+      </select>
+      <button id="create-acct-btn">Register</button>
+      <button id="return-btn">Return to Login</button>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
